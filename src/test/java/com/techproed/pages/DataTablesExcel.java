@@ -30,7 +30,7 @@ public class DataTablesExcel {
     public WebElement nameField;
     @FindBy(xpath = "//button[@data-day='10']")
     public WebElement day;
-
+//degisiklik
     public DataTablesExcel() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
