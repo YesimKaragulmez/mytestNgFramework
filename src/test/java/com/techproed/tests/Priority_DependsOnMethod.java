@@ -13,8 +13,7 @@ public class Priority_DependsOnMethod {
      */
     //Make search() dependent on login():Answer: we write dependsOnMethod="login" inside the search() method
     @Test(priority = 1)
-    public void login() {
-        System.out.println("This is login page");
+    public void login() { System.out.println("This is login page");
     }
 
     @Test(priority = 2)

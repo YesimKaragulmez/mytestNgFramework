@@ -9,7 +9,7 @@ public class HotelroomCreationTest extends TestBase {
     public void positiveTest() throws InterruptedException {
         driver.get("http://www.fhctrip.com/admin/HotelRoomAdmin");
 
-  /*      FHCReservationPage hotelRoomPage = new FHCReservationPage(driver);
+  /*     FHCReservationPage hotelRoomPage = new FHCReservationPage(driver);
         hotelRoomPage.username.sendKeys("manager2");
         hotelRoomPage.password.sendKeys("Man1ager2!");
         hotelRoomPage.login.click();
